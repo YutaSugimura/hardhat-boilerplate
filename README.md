@@ -12,7 +12,7 @@
 
 ## Deploying your contracts
 ```zsh
-  npx hardhat run scripts/sample-script.js
+  npx hardhat run scripts/sample-script.ts
 ```
 ## Starts a JSON-RPC server on top of Hardhat Network
 ```zsh
