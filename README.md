@@ -13,8 +13,17 @@ https://hardhat.org/getting-started/#overview
 
 ## Deploying your contracts
 ```zsh
-  npx hardhat run scripts/sample-script.ts
+  npx hardhat run scripts/sample-script.ts #hardhat
+
+  # or test network
+  npx hardhat run scripts/deploy.ts --network <network> # ropsten, rinkeby, kovan, gorli
 ```
+
+## Etherscan
+```zsh
+npx hardhat verify --network ropsten CONTRACT_ADDRESS "ARGS"
+```
+
 ## Starts a JSON-RPC server on top of Hardhat Network
 ```zsh
   npx hardhat node
