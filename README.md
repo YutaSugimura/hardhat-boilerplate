@@ -13,7 +13,7 @@ https://hardhat.org/getting-started/#overview
 
 ## Deploying your contracts
 ```zsh
-  yarn deploy --network ropsten --network <network> # ropsten, rinkeby, kovan, gorli
+  yarn deploy --network <Network> # ropsten, rinkeby, kovan, gorli
 ```
 
 ## Etherscan
