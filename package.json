@@ -7,7 +7,8 @@
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
     "deploy": "npx hardhat run scripts/deploy.ts",
-    "node": "npx hardhat node"
+    "node": "npx hardhat node",
+    "etherscan": "npx hardhat verify --constructor-args scripts/arguments.ts"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
