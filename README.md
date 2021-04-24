@@ -3,17 +3,17 @@ https://hardhat.org/getting-started/#overview
 
 ## Compile Contracts
 ```zsh
-  npx hardhat compile
+  yarn compile
 ```
 
 ## Testing your contracts
 ```zsh
-  npx hardhat test
+  yarn test
 ```
 
 ## Deploying your contracts
 ```zsh
-  npx hardhat run scripts/deploy.ts --network <network> # ropsten, rinkeby, kovan, gorli
+  yarn deploy --network ropsten --network <network> # ropsten, rinkeby, kovan, gorli
 ```
 
 ## Etherscan
@@ -23,7 +23,7 @@ npx hardhat verify --network ropsten CONTRACT_ADDRESS "ARGS"
 
 ## Starts a JSON-RPC server on top of Hardhat Network
 ```zsh
-  npx hardhat node
+  yarn node
 ```
 
 ## Sample Accounts
