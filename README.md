@@ -1,4 +1,5 @@
-# hardhat
+Boilerplate using Hardhat, which provides a development environment for compiling, deploying, testing, and debugging Ethereum software.
+# Using hardhat
 https://hardhat.org/getting-started/#overview
 
 ## Compile Contracts
