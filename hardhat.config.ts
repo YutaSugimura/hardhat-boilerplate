@@ -83,6 +83,14 @@ const config: HardhatUserConfig = {
       gas: 'auto',
       gasPrice: 'auto',
     },
+    // xDai
+    xdai: {
+      url: "https://dai.poa.network",
+      chainId: 100,
+      accounts: [PRIVATE_KEY],
+      gas: 'auto',
+      gasPrice: 'auto',
+    },
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
