@@ -31,3 +31,11 @@ yarn etherscan --network <Network> <Contract Address> # ropsten, rinkeby, kovan,
 ```zsh
   npx hardhat accounts
 ```
+
+## Faucet
+- Ropsten: https://faucet.dimensions.network/
+- Kovan: https://gitter.im/kovan-testnet/faucet
+- Rinkeby: https://faucet.rinkeby.io/
+- Goerli: https://goerli-faucet.slock.it/
+- Binance Smart Chain(testnet): https://testnet.binance.org/faucet-smart
+- Polygon (testnet): https://faucet.matic.network/
