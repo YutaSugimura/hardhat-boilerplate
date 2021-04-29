@@ -91,6 +91,17 @@ const config: HardhatUserConfig = {
       gas: 'auto',
       gasPrice: 'auto',
     },
+    // Polygon
+    matic: {
+      url: "https://rpc-mainnet.maticvigil.com/",
+      chainId: 137,
+      accounts: [PRIVATE_KEY],
+    },
+    mumbai: {
+      url: "https://rpc-mumbai.maticvigil.com/",
+      chainId: 80001,
+      accounts: [PRIVATE_KEY],
+    }
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
