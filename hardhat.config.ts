@@ -67,7 +67,22 @@ const config: HardhatUserConfig = {
       accounts: [PRIVATE_KEY],
       gas: 'auto',
       gasPrice: 'auto',
-    }
+    },
+    // Binance Smart Chain
+    bsc: {
+      url: "https://bsc-dataseed.binance.org/",
+      chainId: 56,
+      accounts: [PRIVATE_KEY],
+      gas: 'auto',
+      gasPrice: 'auto',
+    },
+    bsc_testnet: {
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+      chainId: 97,
+      accounts: [PRIVATE_KEY],
+      gas: 'auto',
+      gasPrice: 'auto',
+    },
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
