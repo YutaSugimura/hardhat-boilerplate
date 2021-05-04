@@ -1,5 +1,3 @@
-const args = [
-  "Hello, Hardhat!"
-];
+const args = ['Hello, Hardhat!'];
 
 export default args;
