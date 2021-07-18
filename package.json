@@ -12,7 +12,8 @@
     "type-check": "tsc --pretty --noEmit",
     "test-all": "yarn type-check && yarn test",
     "lint": "eslint . && prettier --check .",
-    "format": "eslint --fix . && prettier --write ."
+    "format": "eslint --fix . && prettier --write .",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
@@ -31,6 +32,7 @@
     "ethers": "^5.4.1",
     "hardhat": "^2.4.3",
     "hardhat-deploy": "^0.8.11",
+    "husky": "^7.0.0",
     "prettier": "^2.3.2",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"
