@@ -18,9 +18,9 @@ task('accounts', 'Prints the list of accounts', async (args, hre) => {
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
-const API_KEY = process.env.API_KEY || '';
-const PRIVATE_KEY = process.env.PRIVATE_KEY || '';
-const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || '';
+const API_KEY = process.env.API_KEY ?? '';
+const PRIVATE_KEY = process.env.PRIVATE_KEY ?? '';
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY ?? '';
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
