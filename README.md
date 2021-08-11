@@ -4,6 +4,19 @@ Boilerplate using Hardhat, which provides a development environment for compilin
 
 https://hardhat.org/getting-started/#overview
 
+# Copy .env.template to create .env
+
+```zsh
+  cp .env.template .env
+```
+
+Enter apikey and privatekey in the generated .env
+
+```.env
+  API_KEY=
+  PRIVATE_KEY=
+```
+
 ## Compile Contracts
 
 ```zsh
