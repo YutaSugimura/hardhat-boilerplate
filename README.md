@@ -22,12 +22,6 @@ https://hardhat.org/getting-started/#overview
   yarn deploy --network <Network> # ropsten, rinkeby, kovan, gorli
 ```
 
-## Verification on Etherscan
-
-```zsh
-yarn etherscan --network <Network> <Contract Address> # ropsten, rinkeby, kovan, gorli
-```
-
 ## Starts a JSON-RPC server on top of Hardhat Network
 
 ```zsh
