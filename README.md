@@ -20,13 +20,13 @@ Enter apikey and privatekey in the generated .env
 ## Compile Contracts
 
 ```zsh
-  yarn compile
+  npx hardhat compile
 ```
 
 ## Testing your contracts
 
 ```zsh
-  yarn test
+  npx hardhat test
 ```
 
 ## Coverage your contracts
