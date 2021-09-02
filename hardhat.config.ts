@@ -1,6 +1,7 @@
 import { HardhatUserConfig, task } from 'hardhat/config';
 import '@nomiclabs/hardhat-waffle';
 import 'solidity-coverage';
+import 'hardhat-gas-reporter';
 import { config as dotEnvConfig } from 'dotenv';
 
 dotEnvConfig();
@@ -32,6 +33,10 @@ const config: HardhatUserConfig = {
         runs: 1000,
       },
     },
+  },
+  gasReporter: {
+    currency: 'CHF',
+    gasPrice: 1,
   },
   defaultNetwork: 'hardhat',
   networks: {
