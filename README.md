@@ -29,6 +29,12 @@ Enter apikey and privatekey in the generated .env
   yarn test
 ```
 
+## Coverage your contracts
+
+```zsh
+  npx hardhat coverage
+```
+
 ## Deploying your contracts
 
 ```zsh

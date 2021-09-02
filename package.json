@@ -6,6 +6,7 @@
   "scripts": {
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
     "deploy": "npx hardhat run scripts/deploy.ts",
     "node": "npx hardhat node",
     "etherscan": "npx hardhat verify --constructor-args scripts/arguments.ts",
@@ -33,6 +34,7 @@
     "husky": "^7.0.0",
     "mocha": "^9.1.1",
     "prettier": "^2.3.2",
+    "solidity-coverage": "^0.7.17",
     "ts-node": "^10.2.1",
     "typescript": "^4.3.5"
   },

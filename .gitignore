@@ -4,7 +4,11 @@ node_modules
 .yarn/
 !.yarn/releases/*
 
-#Hardhat files
+# Hardhat files
 cache
 artifacts
+coverage
+coverage.json
+
+# Enviroment
 .env
